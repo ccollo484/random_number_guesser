@@ -4,7 +4,8 @@ import random
 
 python_number = random.randint(1, 100)
 
-user_guess = input("What number is Python thinking of?: ")
+user_input = input("What number is Python thinking of?: ")
+user_guess = int(user_input)
 
 if user_guess == python_number:
     print(f"Well done! Python's number was {python_number}.")
